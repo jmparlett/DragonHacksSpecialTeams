@@ -1,0 +1,37 @@
+
+___________________________TextEditor to do list________________________________________
+
+------Backend------
+Filelist Object:
+	1. getDirFiles(string Directory): Function to grab all filenames in a directory and return them as a list of python strings. It will take in a "TargetDir" which points to a directory. This will have to be returned from pyQts pick folder dialogue.
+
+File object:
+	this object will populate the filelist object each instance should have these methods
+	props:
+	name = filename
+	path = absolute path to file
+	1. saveFile(tbd): takes a tbd string format that will be written to the current file.
+
+	2. getFileText(string filename): this should take in a filename and return the text content in a tbd format. This will be called in the GUI file when a file name is clicked on.
+
+General ideas: we should probably try to keep all paths absolute to reduce potential errors
+
+
+------PyQt Frontend-------
+1. drawFileList(): Function to populate a ui element with list of files. It should take in a python list and add an item to the ui element for each item in the list.
+
+2. drawTextField(): Function to populate a text field with text from getFileText()
+
+3. getTextFieldText(): Function take text from text field and output it in a format useable by saveFile().
+ 
+General ideas: If another file is selected a prompt should populate asking if they would like to save their file first.
+
+pyQt objects:
+1. filelist display similar to whats in VSCode
+2. text editing pane. This should display the currently selected file and allow you to edit the text
+3. save button. This should save the current file by calling a combination of the getTextFieldText() function and the file.saveFile() method.
+4. Current file. this should be a label that displays the name of the current file or the absolute path.
+
+UI intent: You should be able to click on a file in the list and it should populate in the text field. You should be able to click another file to begin editing it. You should be able to click the save button to write to the file.
+
+
