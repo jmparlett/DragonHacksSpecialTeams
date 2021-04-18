@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+	<title>DragonLifts</title>
+  </body>
+
+  <form action = "/DragonLifts/1/" method = "post"> 
+    {{exerciseType}}    
+  </form>
+  
+<div class = "form1">
+  <form method = "POST">
+    {% csrf_token %}
+    {{anaform.as_ul}}
+    <input type="submit" value="save">
+  </form>
+</div>
+<div class = "form2">
+   <form method = "POST">
+    {% csrf_token %}
+    {{aeroform.as_ul}}
+    <input type="submit" value="save">
+  </form> 
+</div>
+
+
+
+  </body>
+{% load static %}
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src={% static "DragonLifts/about.js" %}></script>
+<link rel="stylesheet" href={% static "DragonLifts/style.css" %}>
+
+</html>

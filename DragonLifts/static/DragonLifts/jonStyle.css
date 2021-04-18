@@ -1,0 +1,141 @@
+html ,body{
+    background-color: #07294D;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    text-align: center;
+    color: #ffc600;
+}
+h2,h1,h3, td,p{
+    text-align: center;
+    color: #ffc600;
+}
+table,tr,th{
+    border:1px solid #ffc600;
+    margin: auto;
+
+
+}
+.head{
+    border-bottom: 2px solid #ffc600;
+    background-color: #07294D;
+    padding-top: 2px;
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 3px solid #ffc600;
+    background-color: #07294D;
+    margin-top: 5px;
+    padding-top: 2px;
+}
+#main{
+    background-image: url(hd-computer-science-image-hd-desktop-wallpapers-amazing-images-cool-background-photos-1080p-desktop-backgrounds-artworks-4k-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 60%;
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+    padding: 23px;
+}
+#b_to_h_main{
+    background-image: url(hd-computer-science-image-hd-desktop-wallpapers-amazing-images-cool-background-photos-1080p-desktop-backgrounds-artworks-4k-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: slategray;
+    height: auto;
+    min-height: 60%;
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+    padding: 23px;
+}
+input{
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 40%;
+    padding: 20px;
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+#binaryToHexButton{
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    border-radius: 3px;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: bolder;
+    color: black;
+    padding: 6px;
+}
+#BinaryToHexOutput{
+    background-color: whitesmoke;
+    width: 40%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li{
+    margin: 5px;
+    background-color: #07294D;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #ffc600;
+    position: relative;
+    top: 2em;
+}
+li:hover{
+    background-color: #004da0;   
+}
+a {
+    text-decoration: none;
+    color: #ffc600;
+}
+#chaos{
+    display: inline;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid #ffc600;
+    position: relative;
+    padding: 20px;
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ffc600;
+}
+button:hover{
+    background-color: #ffc600;   
+}
+button {
+    display: inline;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid #ffc600;
+    position: relative;
+    padding: 20px;
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ffc600;
+}
+img {
+	display: inline;
+	border: 2px solid black;
+
+}
