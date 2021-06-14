@@ -1,4 +1,4 @@
 Repo for collabing for the dragon hack
 
 
-****************Archive for my first hackathon app Dragonlifts************************
+****************Archive for hackathon app Dragonlifts************************
